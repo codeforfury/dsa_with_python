@@ -2,7 +2,7 @@
 # given array. The reversal of array should be inplace.
 
 # Author - Rajiv Das
-# Date - 09-08-2026
+# Date - 10-08-2026
 # ----------------------------------------------------------
 
 arr = [5,7,3,4,1,0,6]
