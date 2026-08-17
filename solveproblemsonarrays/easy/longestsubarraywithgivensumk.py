@@ -16,7 +16,7 @@
 
 # 1) Brute force approach - Time: O(n^2) and Space: O(1) complexity.
 '''
-nums = [10, 5, 2, 7, 1, 9]
+nums = [10, 5, 20, 7, 1, 9]
 k = 15  
 c = 0
 maxcount = 0
