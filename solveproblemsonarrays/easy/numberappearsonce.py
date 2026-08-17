@@ -70,7 +70,7 @@ for key, value in freq.items():
 
 
 # 3) Optimal Approach - Time comp: O(n), Space comp: O(1)
-arr = [1,3,7,6,7,1,6]
+arr = [1,3,7,6,7,1,6,3,8]
 xor = 0
 for i in arr:
     xor = xor ^ i
