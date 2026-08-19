@@ -51,7 +51,7 @@ print("Subarray:", nums[start:end + 1])'''
 
 
 # 2) Optimal Approach - Kadane's Algorithm
-nums = [-2,-3,-4,3,1,4,2,-4,-5]  
+nums = [2,-3,-4,3,1,4,2,-4,-5]  
 currenttotal = 0
 maxtotal = float("-inf")
 
