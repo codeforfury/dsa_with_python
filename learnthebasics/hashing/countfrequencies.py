@@ -3,6 +3,10 @@
 # Problem steatement - Given an array, we find the number 
 # of occurrences of each element in the array.
 
+# Author - Rajiv Das
+# Date - 20-08-2026
+# ----------------------------------------------------------
+
 # Two approaches for doing this - 
 
 # 1) brute Force Approach - We use a visited array of boolean values to keep track of 
