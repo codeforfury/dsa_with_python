@@ -17,10 +17,10 @@
 # 2) Optimal Approach -
 
 arr = [5,8,2,3,7,1,20,10] 
-max = arr[0]
+largest = arr[0]
 
 for i in arr:
-    if max < i:
-        max = i
+    if largest < i:
+        largest = i
 
-print(max)
+print(largest)
