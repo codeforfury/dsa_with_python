@@ -10,10 +10,14 @@
 
 # 1)Brute Force Approach - A straightforward way is to create a new array and start 
 # placing the original array's elements from the back into the front of the new array.
+# Time complexity: O(n)
+# Space complexity: O(n)
 
 # 2)Better Approach - It uses two pointers to simultaneously traverse the array from both ends, 
 # swapping the elements until the center is reached. This way, we avoid creating a new 
 # array and perform the reverse operation efficiently using constant space.
+# Time complexity: O(n)
+# Space complexity: O(1), Does In-place reverse.
 
 # 3)Built-in Library Function Approach - In Python, array slicing with a step of -1 
 # creates a reversed copy of the array. It doesn’t reverse in-place unless you 
