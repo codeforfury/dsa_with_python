@@ -61,7 +61,7 @@ for ch in s:
 print(result)'''
 
 # 2) Optimal Approach - Balance Counter Approach
-s = "(()())(())"
+s = "(()())(())(())"
 balance = 0
 result = ""
 
