@@ -44,7 +44,7 @@ else:
 
 # 2) Optimal Approach -
 nums = [3,5,8,15,19]
-x = 1
+x = 10
 ans = -1
 low = 0
 high = len(nums) - 1
