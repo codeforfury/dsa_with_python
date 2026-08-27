@@ -28,7 +28,7 @@
 # 1) Brute Force Approach -
 '''
 nums = [7, 8, 1, 2, 3, 3, 3, 4, 5, 6]
-x = 3
+x = 4
 
 for i in range(len(nums)):
     if nums[i] == x:
