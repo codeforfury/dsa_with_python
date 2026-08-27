@@ -5,7 +5,7 @@
 # at any index which is unknown. Find the minimum element in the array.
 
 # Author - Rajiv Das
-# Date - -08-2026
+# Date - 27-08-2026
 # ----------------------------------------------------------
 
 # Two approaches for doing this - 
