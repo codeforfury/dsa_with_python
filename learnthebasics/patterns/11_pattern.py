@@ -6,7 +6,7 @@ print("="*20)
 print("Pattern 11".center(10, "-"))
 print("="*20)
 
-n = int(input("Enter the no. of line you want to print the pattern: "))
+n = int(input("Enter the number of lines you want to print the pattern: "))
 for i in range(n,0,-1):
     for j in range(n,i,-1):
         print(" ", end = "")
