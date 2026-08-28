@@ -16,7 +16,7 @@
 
 # 2) Optimal Approach -
 
-arr = [5,8,2,3,7,1,20,10] 
+arr = [5,9,6,3,7,1,20,10] 
 largest = arr[0]
 
 for i in arr:
