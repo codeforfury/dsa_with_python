@@ -47,7 +47,7 @@ print("The ceilling is:", ceil)'''
         
 # 2) Optimal Approach -
 nums = [3, 4, 4, 7, 8, 10]
-x = 5
+x = 9
 low = 0
 high = len(nums) - 1
 
