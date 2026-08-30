@@ -32,7 +32,7 @@
 
 # 1) [Naive Approach] Linear Search for Missing Number - O(n^2) Time and O(1) Space -
 '''
-arr = [8, 2, 4, 5, 3, 7, 1]
+arr = [8, 2, 4, 5, 3, 7, 1, 9]
 
 for i in range(1, len(arr)+2):
     found = False
