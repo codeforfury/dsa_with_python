@@ -68,7 +68,7 @@ print("Count of max consecutive sequence is:", maxcount)'''
 
 # 2) Better Approach -
 '''
-nums = [1, 2, 3, 3, 4, 100, 200, 201, 202, 203, 204]
+nums = [1, 2, 3, 3, 4, 100, 200, 201, 202, 203, 204, 205]
 maxcount = 1
 count = 1
 nums.sort()
@@ -89,7 +89,7 @@ print("Count of max consecutive sequence is:", maxcount)'''
 
 
 # 3) Optimal Approach -
-nums = [1, 2, 3, 3, 4, 100, 200, 201, 202, 202, 203, 204]
+nums = [1, 2, 3, 3, 4, 100, 200, 201, 202, 202, 203, 204, 205]
 s = set(nums)
 maxcount = 1
 
