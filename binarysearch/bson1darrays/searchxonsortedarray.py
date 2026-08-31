@@ -52,7 +52,7 @@ else:
 
 
 # 2) Recursive Approach -
-nums = [3, 4, 5, 6, 7, 9, 12, 16, 17]
+nums = [3, 4, 5, 6, 7, 9, 12, 16, 17, 20]
 low = 0
 high = len(nums) - 1
 target = 1
