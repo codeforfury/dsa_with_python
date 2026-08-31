@@ -1,3 +1,5 @@
+# Switch Case.
+
 # Problem Statement - Given the integer day denoting the day number, print on the 
 # screen which day of the week it is. Week starts from Monday and for values greater 
 # than 7 or less than 1, print Invalid.
