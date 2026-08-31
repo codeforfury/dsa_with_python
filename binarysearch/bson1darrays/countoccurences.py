@@ -12,13 +12,13 @@
 # 1) Brute Force Approach - Traverse the array and count every element 
 # equal to x. Since the array is sorted, we can simply check 
 # each element and increment count whenever nums[i] == x.
-# Time: O(n)
-# Space: O(1)
+# Time: O(n).
+# Space: O(1).
 
 # 2) Optimal Approach - Use binary search to find the first and last occurrence 
 # of x. Then calculate the count using last - first + 1. If x is not found, return 0.
-# Time: O(log n)
-# Space: O(1)
+# Time: O(log n).
+# Space: O(1).
 
 
 # 1) Brute Force Approach -
