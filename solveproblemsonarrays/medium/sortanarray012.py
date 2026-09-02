@@ -63,7 +63,7 @@ print(arr)'''
 
 
 # 3) Optimal Approach - Dutch National Flag Algorithm.
-arr = [2,0,1,0,1,1,2,2,1,0,2]
+arr = [2,1,0,1,0,1,1,2,2,1,0,2]
 low = 0
 mid = 0
 high = (len(arr) - 1)
