@@ -73,7 +73,7 @@ for i in arr:
 
 
 # 3) Optimal Approach - Boyer-Moore Voting Algorithm
-arr = [7, 0, 0, 1, 7, 7, 2, 7, 7]
+arr = [7, 0, 0, 1, 7, 7, 2, 7, 7, 7]
 candidate = 0
 count = 0
 
