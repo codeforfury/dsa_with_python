@@ -4,7 +4,7 @@
 # If there is no common prefix, return an empty string "".
 
 # Author - Rajiv Das
-# Date - -09-2026
+# Date - 09-09-2026
 # ----------------------------------------------------------
 
 # Approach for doing this - 
