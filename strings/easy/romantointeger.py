@@ -19,8 +19,8 @@
 # Approach for doing this - 
 
 # 1) Optimal Approach -
-# Store the value of each Roman symbol in a dictionary.
-# Traverse the string from left to right and compare the current symbol with the next symbol.
+# Store the value of each Roman symbol in a dictionary. Traverse the string 
+# from left to right and compare the current symbol with the next symbol. 
 # If the current value is smaller than the next value, subtract the current value.
 # Otherwise, add the current value to the total.
 # This handles subtraction cases such as IV, IX, XL, XC, CD, and CM.
