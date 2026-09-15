@@ -43,9 +43,12 @@ s = "MCMXLIV"
 ans = 0
 
 for i in range(len(s)):
+
+    # If the next roman is greater, then subtract the current roman
     if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:
         ans -= roman[s[i]]
 
+    # If not greater then just add it
     else:
         ans += roman[s[i]]
 
