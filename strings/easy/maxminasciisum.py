@@ -21,22 +21,49 @@
 # Space Complexity: O(1).
 
 
-# 1) Optimal Approach - 
+# 1) Optimal Approach -
+
+# Store the total number of strings
 n = 4
+
+# Store the given strings
 strings = ["cat", "dog", "a", "hello"]
+
+# Initialize maximum sum to negative infinity
 maxsum = float('-inf')
+
+# Initialize minimum sum to positive infinity
 minsum = float('inf')
 
+# Traverse each string
 for i in range(n):
+
+    # Initialize the ASCII sum of the current string
     s = 0
+
+    # Traverse each character of the current string
     for char in strings[i]:
+
+        # Add the ASCII value of the current character
         s += ord(char)
 
+    # Check if the current sum is greater than the maximum sum
     if s > maxsum:
+
+        # Update the maximum ASCII sum
         maxsum = s
+
+        # Store the string having the maximum ASCII sum
         max_ascii = strings[i]
+
+    # Check if the current sum is smaller than the minimum sum
     if s < minsum:
+
+        # Update the minimum ASCII sum
         minsum = s
+
+        # Store the string having the minimum ASCII sum
         min_ascii = strings[i]
 
+# Print the string with minimum and maximum ASCII sums
 print(min_ascii, max_ascii)
