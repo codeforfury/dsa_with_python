@@ -14,6 +14,8 @@
 # Recursive approach
 
 def fact(n):
+
+    # anchor condition
     if n < 1:
         return 1
     
