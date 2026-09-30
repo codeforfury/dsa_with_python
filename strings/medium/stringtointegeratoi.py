@@ -68,7 +68,7 @@ while i < len(s):
 
 ans = ans * sign
 
-# 32-bit range
+# Check whether it is in 32-bit range
 if ans < -2147483648:
     print(-2147483648)
 
