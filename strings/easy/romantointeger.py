@@ -39,7 +39,7 @@ roman = {
     'D': 500,
     'M': 1000
 }
-s = "MCMXLIV"
+s = "IX"
 ans = 0
 
 for i in range(len(s)):
